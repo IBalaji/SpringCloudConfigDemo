@@ -1,0 +1,7 @@
+spring: 
+  cloud:
+    config:
+      server:
+       name: random
+       git:
+          uri: https://github.com/IBalaji/SpringCloudConfigDemoProperties
